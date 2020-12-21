@@ -33,8 +33,8 @@
                                 <legend>Dept Form</legend>
                                 <form:input path="id" readonly="true"/><p />
                                 <form:input path="name" placeholder="請輸入部門名稱"/><p />
+                                <form:errors path="name" style="color:red" /><p />
                                 <input type="text" id="_method" name="_method" readonly="true" value="${_method}" /><p />
-                                <form:errors path="*" style="color:red" /><p />
                                 <button type="submit" class="pure-button pure-button-primary">Submit</button>
                                 
                             </fieldset>

@@ -23,9 +23,9 @@ public class CompanyDao {
     }
     //  flag: true (提供給查詢), false: 提供給新增修改刪除
     private Session getSession(boolean flag) {
-        if (flag & session != null) {
-            return session;
-        }
+//        if (flag & session != null) {
+//            return session;
+//        }
         try {
             session = sessionFactory.getCurrentSession();
         } catch (Exception e) {
